@@ -1,0 +1,108 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image: url("Game Assets - Game Background for Sidescroller Game.jpg");
+    background-size: cover;
+}
+header
+{
+    width: 100%;
+    /* line-height: 5vh; */
+
+}
+h1
+{
+    font-family:'Bubblegum Sans', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-shadow: 0 1px 0 #efefef,
+                 0 2px 0 #efefef,
+                 0 3px 0 #efefef,
+                 0 4px 0 #efefef,
+                 0 10px 0 rgba(0,0,0,.1);
+}
+h2
+{
+    font-family:'Bubblegum Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+section{
+    /* height: 95vh; */
+    display: flex;
+    /* flex:1; */
+    justify-content: center;
+    align-items: center;
+}
+.gameArea{
+    width: 50%;
+    height: 300px;
+    padding : 20px 0;
+    background-color:rgb(239, 189, 62);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 15px;
+}
+h3{
+    text-align: center;
+    font-size: 1.5 rem;
+}
+input{
+    width: 40%;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border:0.1cm;
+    background-color:white;
+    color:black;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+button{
+    font-size: 1rem;
+    cursor:pointer;
+    outline: none;
+    border:#2f3542;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #eb4d4b;
+}
+button.btn{
+        font-weight: 600;
+        padding: 1rem 2rem;
+        background: white;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.65,-0.25,0.25,1.95);
+}
+button.btn:hover, button.btn:focus, button.btn:active{
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+}
+.hidden
+{
+   display:none; 
+}
+.restart-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.restart-btn:hover {
+    background-color: rgb(239, 189, 62);
+}
